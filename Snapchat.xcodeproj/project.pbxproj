@@ -10,6 +10,8 @@
 		5D4FD2541DB88B960005198C /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2531DB88B960005198C /* SnapsViewController.swift */; };
 		5D4FD2561DB909670005198C /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2551DB909670005198C /* PictureViewController.swift */; };
 		5D4FD2581DB918070005198C /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2571DB918070005198C /* SelectUserViewController.swift */; };
+		5D4FD25A1DB91ED10005198C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2591DB91ED10005198C /* User.swift */; };
+		5D4FD25E1DB931F20005198C /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD25D1DB931F20005198C /* Snap.swift */; };
 		5DDBD5BD1DB824B000A6432F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD5BC1DB824B000A6432F /* AppDelegate.swift */; };
 		5DDBD5BF1DB824B000A6432F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */; };
 		5DDBD5C21DB824B000A6432F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDBD5C01DB824B000A6432F /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		5D4FD2531DB88B960005198C /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		5D4FD2551DB909670005198C /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		5D4FD2571DB918070005198C /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		5D4FD2591DB91ED10005198C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D4FD25D1DB931F20005198C /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		5DDBD5B91DB824B000A6432F /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDBD5BC1DB824B000A6432F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4FD25B1DB91F000005198C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */,
+				5D4FD2571DB918070005198C /* SelectUserViewController.swift */,
+				5D4FD2551DB909670005198C /* PictureViewController.swift */,
+				5D4FD2531DB88B960005198C /* SnapsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D4FD25C1DB91F240005198C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D4FD2591DB91ED10005198C /* User.swift */,
+				5D4FD25D1DB931F20005198C /* Snap.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		5DDBD5B01DB824B000A6432F = {
 			isa = PBXGroup;
 			children = (
@@ -70,13 +94,11 @@
 		5DDBD5BB1DB824B000A6432F /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				5D4FD25C1DB91F240005198C /* Models */,
+				5D4FD25B1DB91F000005198C /* ViewControllers */,
+				5DDBD5C01DB824B000A6432F /* Main.storyboard */,
 				5D4FD2521DB87C620005198C /* Snapchat.entitlements */,
 				5DDBD5BC1DB824B000A6432F /* AppDelegate.swift */,
-				5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */,
-				5D4FD2571DB918070005198C /* SelectUserViewController.swift */,
-				5D4FD2551DB909670005198C /* PictureViewController.swift */,
-				5D4FD2531DB88B960005198C /* SnapsViewController.swift */,
-				5DDBD5C01DB824B000A6432F /* Main.storyboard */,
 				5DDBD5C31DB824B000A6432F /* Assets.xcassets */,
 				5DDBD5C51DB824B000A6432F /* LaunchScreen.storyboard */,
 				5DDBD5C81DB824B000A6432F /* Info.plist */,
@@ -234,7 +256,9 @@
 			files = (
 				5DDBD5BF1DB824B000A6432F /* SignInViewController.swift in Sources */,
 				5D4FD2561DB909670005198C /* PictureViewController.swift in Sources */,
+				5D4FD25A1DB91ED10005198C /* User.swift in Sources */,
 				5D4FD2581DB918070005198C /* SelectUserViewController.swift in Sources */,
+				5D4FD25E1DB931F20005198C /* Snap.swift in Sources */,
 				5DDBD5BD1DB824B000A6432F /* AppDelegate.swift in Sources */,
 				5D4FD2541DB88B960005198C /* SnapsViewController.swift in Sources */,
 			);
