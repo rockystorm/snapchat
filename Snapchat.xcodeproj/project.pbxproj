@@ -12,6 +12,7 @@
 		5D4FD2581DB918070005198C /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2571DB918070005198C /* SelectUserViewController.swift */; };
 		5D4FD25A1DB91ED10005198C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD2591DB91ED10005198C /* User.swift */; };
 		5D4FD25E1DB931F20005198C /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD25D1DB931F20005198C /* Snap.swift */; };
+		5D4FD2601DB938060005198C /* ViewSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FD25F1DB938060005198C /* ViewSnapViewController.swift */; };
 		5DDBD5BD1DB824B000A6432F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD5BC1DB824B000A6432F /* AppDelegate.swift */; };
 		5DDBD5BF1DB824B000A6432F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */; };
 		5DDBD5C21DB824B000A6432F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDBD5C01DB824B000A6432F /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		5D4FD2571DB918070005198C /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		5D4FD2591DB91ED10005198C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5D4FD25D1DB931F20005198C /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		5D4FD25F1DB938060005198C /* ViewSnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSnapViewController.swift; sourceTree = "<group>"; };
 		5DDBD5B91DB824B000A6432F /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDBD5BC1DB824B000A6432F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDBD5BE1DB824B000A6432F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5D4FD2571DB918070005198C /* SelectUserViewController.swift */,
 				5D4FD2551DB909670005198C /* PictureViewController.swift */,
 				5D4FD2531DB88B960005198C /* SnapsViewController.swift */,
+				5D4FD25F1DB938060005198C /* ViewSnapViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				5DDBD5BF1DB824B000A6432F /* SignInViewController.swift in Sources */,
 				5D4FD2561DB909670005198C /* PictureViewController.swift in Sources */,
 				5D4FD25A1DB91ED10005198C /* User.swift in Sources */,
+				5D4FD2601DB938060005198C /* ViewSnapViewController.swift in Sources */,
 				5D4FD2581DB918070005198C /* SelectUserViewController.swift in Sources */,
 				5D4FD25E1DB931F20005198C /* Snap.swift in Sources */,
 				5DDBD5BD1DB824B000A6432F /* AppDelegate.swift in Sources */,

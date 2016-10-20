@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -105,11 +106,51 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="8uJ-QG-Ws2" id="KXE-of-oQi"/>
+                        <segue destination="m2B-2S-SlY" kind="show" identifier="viewsnapsegue" id="nn8-9l-lk8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igX-XQ-QGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1967.2" y="35.532233883058474"/>
+        </scene>
+        <!--View Snap View Controller-->
+        <scene sceneID="WM9-hT-dqn">
+            <objects>
+                <viewController id="m2B-2S-SlY" customClass="ViewSnapViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="swb-SW-br7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kk3-67-KWu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7rm-y8-Uta">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is me saying hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftf-Hj-6Hn">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBr-DB-MkW"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kk3-67-KWu" firstAttribute="top" secondItem="ftf-Hj-6Hn" secondAttribute="bottom" constant="10" id="2Xt-US-Qq7"/>
+                            <constraint firstItem="ftf-Hj-6Hn" firstAttribute="top" secondItem="fBr-DB-MkW" secondAttribute="bottom" constant="10" id="AG2-VJ-Qh8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ftf-Hj-6Hn" secondAttribute="trailing" constant="5" id="TN1-99-FVu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fBr-DB-MkW" secondAttribute="trailing" constant="10" id="bXA-dc-Rb0"/>
+                            <constraint firstItem="fBr-DB-MkW" firstAttribute="top" secondItem="swb-SW-br7" secondAttribute="bottom" constant="10" id="ckD-Po-NW9"/>
+                            <constraint firstItem="ftf-Hj-6Hn" firstAttribute="leading" secondItem="7rm-y8-Uta" secondAttribute="leadingMargin" constant="5" id="q6q-cF-hjw"/>
+                            <constraint firstItem="fBr-DB-MkW" firstAttribute="leading" secondItem="7rm-y8-Uta" secondAttribute="leadingMargin" constant="10" id="xDu-Qe-Zs6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="fBr-DB-MkW" id="icc-XM-YpW"/>
+                        <outlet property="label" destination="ftf-Hj-6Hn" id="HQQ-QK-d7V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQq-eW-f1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="740"/>
         </scene>
         <!--Picture View Controller-->
         <scene sceneID="bnN-Fo-IZj">
